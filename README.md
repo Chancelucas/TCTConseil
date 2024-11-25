@@ -33,7 +33,7 @@ cd mon_repertoire_de_projet
 git init
 ```
 ```
-git remote add origin https://github.com/Chancelucas/TRTConseil.git
+git remote add origin https://github.com/Chancelucas/TCTConseil.git
 ```
 ```
 git checkout -b dev
