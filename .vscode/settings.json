@@ -1,0 +1,8 @@
+{
+  "emmet.includeLanguages": {
+    "twig": "html"
+  },
+  "emmet.preferences": {
+  
+  }
+}
