@@ -47,3 +47,12 @@ git commit -m "init project"
 ```
 git push -u origin dev
 ```
+
+## Besoin de : 
+
+### Adminier pour la gestion de la BDD en MySQL : 
+
+https://www.adminer.org/ -> download :
+Adminer 4.8.1 for MySQL (.php, 356 kB), English only (.php, 208 kB)
+
+Inculure ce document dans le dossier Public de notre application
