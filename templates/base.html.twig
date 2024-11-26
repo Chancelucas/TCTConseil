@@ -15,6 +15,20 @@
 			{% endblock %}
 		{% endblock %}
 	</head>
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="{{ url('home') }}" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        <span class="fs-4">Simple header</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="{{ path('home') }}" class="nav-link {{ app.current_route == 'home' ? 'active' : ''}}" aria-current="page">Accueil</a></li>
+        <li class="nav-item"><a href="{{ path('annonce') }}" class="nav-link {{ app.current_route starts with 'annonce' ? 'active' : ''}}">Annonces</a></li>
+        <li class="nav-item"><a href="{{ path('connexion') }}" class="nav-link {{ app.current_route starts with 'connexion' ? 'active' : ''}}">Connexion</a></li>
+      </ul>
+    </header>
+  </div>
 	<body>
 		<div class="form-signin w-100 m-auto">
 			{% block body %}{% endblock %}
